@@ -1,0 +1,21 @@
+
+var ftGUID_3628574="4096410CEF4A0D";
+var ftConfID_3628574="0";
+var ftParams_3628574="ftx=&fty=&ftadz=&ftscw=&ft_custom=kgg_1s4axdywhm_tlnti0y0f0azeh7jjkm7p3f5ovaipg86izanfza==&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fcutekawaiiresources.wordpress.com%2F2018%2F04%2F10%2Fwestern-zodiac-bullet-points-favicons%2F&ft_section=__76617736515055968461879930225449963043&cachebuster=473561.49910250364&gdpr=0&gdpr_consent=";
+var ftKeyword_3628574="";
+var ftCustom_3628574="kgg_1s4axdywhm_tlnti0y0f0azeh7jjkm7p3f5ovaipg86izanfza==";
+var ftSection_3628574="__76617736515055968461879930225449963043";
+var ftSegment_3628574="w2b";
+var ftSegmentList_3628574=[{s:'w2b'}];
+var ftRuleMatch_3628574="0";
+var ftTimestamp_3628574="1555206038";
+var ftImp3628574 = {};
+ftImp3628574.privacy = "x";
+ftImp3628574.guidAge = "25";
+ftImp3628574.impID = "39D425EE-2132-B7E5-F77E-C750C7A80D3A";
+ftImp3628574.duid = "FT:4096410CEF4A0D";
+
+ftImp3628574.ft_tpplid = "";
+ftImp3628574.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/362/3628574/2609531/js/j-3628574-2609531.js" id="ftscript_m3628574" name="ftscript_m3628574"></scr'+'ipt>');
