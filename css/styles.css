@@ -1,131 +1,184 @@
 body{
   background-color: #FFF;
   color: #40514E;
-  margin: 0 auto;
-  text-align: center;
+  margin:0 auto;
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
 }
-h1{
+.title{
   color: #66BFBF;
-  font-size: 3.5rem;
-  margin: 0 ;
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
-  padding: 0;
+  font-size: 3rem;
 }
-h2{
+.sub-title{
   color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
-  font-size: 2rem;
-  padding-bottom: 10px;
+  font-size: 1.5rem;
 }
-
-h3{
-  color: #5ca0d3;
-  margin-top:0;
+p{
+  line-height: 2;
 }
-hr{
+.link{
+  color: #FFF;
+  margin:0;
+}
+.ruler{
   width: 6%;
   border: dotted grey 6px;
   border-bottom: none;
   margin: 3.125rem auto;
 }
-p{
-  line-height: 2;
-}
-.top-container{
+/* top session */
+#top{
   background-color: #eaf5ff;
-  position: relative;
-  padding-top: 12.5rem;
+  padding-top: 5%;
+  margin: 0;
 }
     .icon{
       background-color: #FFF;
       border-radius: 100%;
-      position: absolute;
-      top: 3.125rem;
-      left: 18.75rem;
-      width: 5.625rem;
-      height: auto;
+      position: relative;
+      width: 72px;
+      height: 72px;
+      top: 5%;
+      left: 10%;
     }
     .top-cloud{
-      position: absolute;
-      right: 18.75rem;
-      top: 9.375rem;
+      position: relative;
+      padding: 3%;
+      left: 20%;
     }
-
     .bottom-cloud{
-      position:absolute;
-      left: 15.625rem;;
-      bottom: 21.875rem;
+      position: relative;
+      left: 50%;
+      top: 30%;
     }
-.middle-container{
-  margin: 3.125rem 0;
-}
-  .profile{
-    margin: 20px auto 20px;
-  }
-    .intro{
-      width: 50%;
+    .mountain-image{
+      position: relative;
       margin: 0 auto;
+      max-width: 100%;
+      display: block;
+      text-align: center;
     }
-    .profile-pic{
-      background-color: #c8e6f5;
-      border-radius: 100%;
+    .text{
+      position: relative;
+      text-align: center;
     }
+/* hello session */
+.profile-image{
+    background-color: #66BFBF;
+    border-radius: 100%;
+    position: relative;
+    margin: 3% auto;
+    max-width: 100%;
+    display: block;
+  }
+  .intro{
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+/* portfolio session */
+.portfolio-box{
+  text-align: center;
+  border: solid .5px;
+}
+.portfolio-button{
+  background: #11CDD4;
+  color: #FFF;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+.portfolio-button:hover {
+  background: #30E3CB;
+  text-decoration: none;
+}
+/* jobs searching session */
+#job-searching{
+  text-align: center;
+  margin: 0 auto 30px;
+}
+.email-icon{
+  padding: 10px;
+}
 
-  .skill-row{
-    width: 50%;
-    margin: 0 auto 4.375rem;
-    text-align: left;
-    display: inline-block;
+/* footer session */
+#footer{
+  background-color: #66BFBF;
+  text-align: center;
+  padding:3% ;
+}
+.footer-link{
+  color: #EAF6F6;
+  margin: 5px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #30E3CB;
+}
+.copyright-message{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 10px;
+}
+
+@media (max-width:400px)  {
+  .title{
+    font-size: 3.5rem;
+  }
+  .sub-title{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  .ruler{
+    width: 10%;
+    border: dotted grey 8px;
+    margin: 2.5rem auto;
+    border-bottom: none;
+  }
+  /* top session */
+
+  .icon{
+    width: 100px;
+    height: 100px;
   }
 
-    .code-img{
-      width: 25%;
-      float: left;
-      margin-right: 30px;
+  /* hello session */
+  .profile-image{
+      width: 130px;
+      height: 130px;
     }
-    .chilli-img{
-      width: 25%;
-      float: right;
-      margin-left: 30px;
+  .intro{
+      width: 90%;
     }
-    .btn{
-      background: #11CDD4;
-      border-radius: 8px;
-      font-family: 'Montserrat', sans-serif;
-      color: #ffffff;
-      font-size: 20px;
-      padding: 10px 20px;
-      text-decoration: none;
-    }
+  .portfolio-button{
+  font-size: 1rem;
+  }
+  .footer-link{
+    font-size: 1rem;
+    margin: 5px 10px;
+  }
+  .copyright-message{
+    font-size: .75rem;
 
-    .btn:hover {
-      background: #30E3CB;
-      text-decoration: none;
-    }
-    .contact-message{
-      width: 40%;
-      margin: 40px auto;
-    }
-
-.bottom-container{
-  background-color: #66BFBF;
-  padding: 30px 0 5px;
+  }
 
 }
-    a{
-      color: #11999E;
-      font-family: 'Montserrat', sans-serif;
-      margin: 10px 20px;
-      text-decoration: none;
+@media (max-width: 768px and min-width: 401px){
+  .title{
+    font-size: 3rem;
+  }
+  .sub-title{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  .intro{
+      width: 80%;
     }
-    a:hover{
-      color: #EAF6F6;
-    }
-    .copyright-message{
-      color: #EAF6F6;
-      font-size: .75rem;
-      padding: 20px 0 0;
-    }
+}
