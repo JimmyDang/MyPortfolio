@@ -12,6 +12,7 @@ body{
 .sub-title{
   color: #66BFBF;
   font-size: 1.5rem;
+  margin-bottom: 3%;
 }
 p{
   line-height: 2;
@@ -39,17 +40,17 @@ p{
       width: 72px;
       height: 72px;
       top: 5%;
-      left: 10%;
+      left: 20%;
     }
     .top-cloud{
       position: relative;
       padding: 3%;
-      left: 20%;
+      left: 25%;
     }
     .bottom-cloud{
       position: relative;
       left: 70%;
-      top: 30%;
+      top: 30px;
     }
     .mountain-image{
       position: relative;
@@ -78,9 +79,14 @@ p{
     text-align: center;
   }
 /* portfolio session */
+#portfolio{
+  margin: 0 10%;
+}
 .portfolio-box{
   text-align: center;
-  border: solid .5px;
+  padding: 0;
+  margin: 0;
+
 }
 .portfolio-button{
   background: #11CDD4;
@@ -107,7 +113,7 @@ p{
 #footer{
   background-color: #66BFBF;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 .footer-link{
   color: #EAF6F6;
@@ -121,6 +127,10 @@ p{
   color: #EAF6F6;
   font-size: .75rem;
   padding: 10px;
+}
+.portfolio-image{
+  width: 20rem;
+  height: 17rem;
 }
 
 @media (max-width:400px)  {
@@ -143,6 +153,7 @@ p{
   /* top session */
 
   .icon{
+    left: 10%;
     width: 100px;
     height: 100px;
   }
@@ -160,6 +171,7 @@ p{
     }
   .portfolio-button{
   font-size: 1rem;
+  margin-bottom: 15px;
   }
   .footer-link{
     font-size: 1rem;
