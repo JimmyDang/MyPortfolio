@@ -15,19 +15,36 @@
 <body>
   <section id="top">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <img class="icon" src="images/man.png" alt="icon-pic">
+      <nav class="navbar navbar-expand-lg navbar-light bg-inverse">
+        <img class="icon" src="images/man.png" alt="icon-pic">
+        <button class="navbar-toggler navbar-mobile" type="button" data-toggle="collapse" data-target="#headerMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="headerMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hello">About Me</a>
+            </li>
+            <li class-"nav-item">
+              <a class="nav-link" href="#portfolio">My Work</a>
+            </li>
+            <li class-"nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
     </div>
-    <div class="container-fluid">
+  <div class="container-fluid">
       <div class="row">
         <div class="col">
           <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-          <h1 class="text title">I'm Jimmy.</h1>
-          <h3 class="text sub-title"> a Junior Web Developer</h3>
-          <div class="intro">
+          <h1 class="heading title">I'm Jimmy.</h1>
+          <h3 class="heading sub-title"> a Junior Web Developer</h3>
+          <div class="intro align-right">
             <q>Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it. </q><br>
             <i>Bruce Lee</i>
           </div>
@@ -43,7 +60,7 @@
       <div class="row">
         <div class="col">
           <img class="profile-image" src="images/man.png" alt="profile-pic">
-          <h1 class="text title">Hello.</h2>
+          <h1 class="heading">Hello.</h2>
             <p class="intro">A self-driven, logical, creative, and tenacious Software Engineer graduate who is motivated by technical challenges. Pursued strong academic foundation. I have passion for web development and love to create amazing website.</p>
 
         </div>
@@ -53,32 +70,32 @@
   <hr class="ruler">
   <section id="portfolio">
     <div class="container-fluid">
-      <h1 class="text title">School Project</h1>
+      <h1 class="heading">School Project</h1>
       <div class="row">
-        <div class="portfolio-box col-lg-4 col-md-6">
-          <img class="portfolio-image"src="images/tindog.jpg" alt="thumbnail">
+          <div class="portfolio-box col-lg-4 col-md-6">
+            <img class="portfolio-image"src="images/tindog.jpg" alt="thumbnail">
 
-          <p><button class="portfolio-button"><a class="link" href="https://jimmydang.github.io/tindog/">Tindog</a></button></p>
-        </div>
-        <div class="portfolio-box col-lg-4 col-md-6">
-          <img class="portfolio-image"src="images/travel.jpg" alt="thumbnail">
-          <p><button class="portfolio-button"><a class="link" href="https://jimmydang.github.io/travel-site/">Travel Site</a></button></p>
-        </div>
-        <div class="portfolio-box col-lg-4">
-          <img class="portfolio-image"src="images/form.png" alt="thumbnail">
-          <p><button class="portfolio-button"><a class ="link" href="https://jimmydang.github.io/applicationform/">Application Form</a></button></p>
-        </div>
+            <p class="margin-top"><a class="button" href="https://jimmydang.github.io/tindog/">Tindog</a></p>
+          </div>
+          <div class="portfolio-box col-lg-4 col-md-6">
+            <img class="portfolio-image"src="images/travel.jpg" alt="thumbnail">
+            <p class="margin-top"><a class="button" href="https://jimmydang.github.io/travel-site/">Travel Site</a></p>
+          </div>
+          <div class="portfolio-box col-lg-4">
+            <img class="portfolio-image"src="images/form.png" alt="thumbnail">
+            <p class="margin-top"><a class ="button" href="https://jimmydang.github.io/applicationform/">Application Form</a></p>
+          </div>
       </div>
     </div>
   </section>
   <hr class="ruler">
-  <section id="job-searching">
+  <section id="contact">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <h3 class="sub-title">Active looking for job</h3>
-          <p>some text</p>
-          <button class="portfolio-button" type="button"><a class="link"  href="mailto:jimmy.vpdang@gmail.com"><i class="fas fa-envelope email-icon"></i>Message Me</i></a></button>
+          <h3 class="heading">Active looking for job</h3>
+          <p class="intro">If you like my work and looking for a freshman for your team, just sent me direct email or contact me through my LinkedIn.</p>
+          <p class="margin-top"> <a class="button"  href="mailto:jimmy.vpdang@gmail.com"><i class="fas fa-envelope email-icon"></i>Message Me</i></a></p>
         </div>
       </div>
     </div>
