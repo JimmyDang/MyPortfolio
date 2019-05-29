@@ -58,8 +58,8 @@ body{
   line-height: 2;
 
 }
-.align-right{
-  text-align: right;
+.quote{
+  text-align: center;
   top: 20%;
   left:50%;
   transform: translate(-50%, -50%);
@@ -177,12 +177,16 @@ a:hover{
   .container-fluid{
     padding: 0 20px;
   }
+  .navbar{
+    padding: 2rem 0;
+  }
   .icon{
     left: 5%;
     width: 70px;
     height: 70px;
   }
   .title{
+    margin-top: 1rem;
     top: 15%;
     font-size: 1.7rem;
   }
@@ -196,8 +200,9 @@ a:hover{
     width: 100%;
     line-height: 1.5;
   }
-  .align-right{
-    top: 28%;
+  .quote{
+    top: 30%;
+    margin-bottom: 3rem;
   }
   .bottom-cloud{
     display: none;
@@ -210,4 +215,7 @@ a:hover{
     border: dotted grey 8px;
     margin: 2.5rem auto;
     border-bottom: none;
+  }
+  .portfolio-box{
+    margin-top: 1.5rem;
   }
