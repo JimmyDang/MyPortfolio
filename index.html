@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jimmy Dang-Junior Web Developer</title>
+  <title>Jimmy's Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="icon" href="icon.gif">
+  <link rel="favicon" href="favicon.gif">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Lato|Montserrat|Scada" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
@@ -14,77 +14,78 @@
 
 <body>
   <section id="top">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-inverse">
-        <img class="icon" src="images/man.png" alt="icon-pic">
-        <button class="navbar-toggler navbar-mobile" type="button" data-toggle="collapse" data-target="#headerMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="headerMenu">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#top">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#hello">About Me</a>
-            </li>
-            <li class-"nav-item">
-              <a class="nav-link" href="#portfolio">My Work</a>
-            </li>
-            <li class-"nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-inverse">
+      <!-- Links -->
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+  <div class="collapse navbar-collapse" id="headerMenu">-->
+      <ul class="nav navbar-nav">
+        <li class-"nav-item">
+          <a class="header-link" href="#portfolio">My Work</a>
+        </li>
+        <li class-"nav-item">
+          <a class="header-link" href="images/JimmyDang.Resume.pdf" download>My Resume</a>
+        </li>
+      </ul>
+      <ul class="nav bar-nav align-right">
+        <li class-"nav-item">
+          <a class="social-icon header-link" href="https://github.com/JimmyDang"><i class="fab fa-github "></i></a></li>
+        <li class-"nav-item">
+          <a class=" social-icon header-link" href="https://www.linkedin.com/in/jimmyvpdang/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class-"nav-item">
+          <a class="social-icon header-link" href="mailto:jimmy.vpdang@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </nav>
+    <hr class="header-ruler">
+    <div class="header">
+      <div class="header__top-cloud">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      </div>
+      <div class="header-text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main title">Hello! I'm Jimmy.</span>
+          <span class="heading-primary-sub">a Graduate Software Engineer</span>
+        </h1>
+        <div>
+          <p class="header__intro">I'm an open-minded, data-driven, and creative Software Engineer graduate with a lot of passion to create amazing websites.</p>
         </div>
-      </nav>
-    </div>
-  <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-          <h1 class="heading title">I'm Jimmy.</h1>
-          <h3 class="heading sub-title"> a Graduate Software Engineer</h3>
-          <div class="intro quote">
-            <q>Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it. </q><br>
-            <i>Bruce Lee</i>
-          </div>
-
-          <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-          <img class="mountain-image" src="images/mountain.png" alt="cloud-img">
+        <div class="header__button">
+          <a class="button btn-header" href="#portfolio">My Work</a>
+          <a class="button btn-header" href="mailto:jimmy.vpdang@gmail.com">Email Me</a>
         </div>
+      </div>
+      <div class="header__bottom-cloud">
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      </div>
+      <div class="header-mountain-image">
+        <img class="mountain-image" src="images/mountain.png" alt="cloud-img">
       </div>
     </div>
   </section>
-  <section id="hello">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <img class="profile-image" src="images/man.png" alt="profile-pic">
-          <h1 class="heading">Hello.</h2>
-            <p class="intro">A self-driven, logical, creative, and tenacious Software Engineer graduate who is motivated by technical challenges. Pursued strong academic foundation. I have passion for web development and love to create amazing website.</p>
 
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr class="ruler">
   <section id="portfolio">
     <div class="container-fluid">
-      <h1 class="heading">My Project</h1>
+      <h1 class="title">My Work</h1>
       <div class="row">
-          <div class="portfolio-box col-lg-4 col-md-6">
-            <img class="portfolio-image"src="images/tindog.jpg" alt="thumbnail">
-
-            <p class="margin-top"><a class="button" href="https://jimmydang.github.io/tindog/">Tindog</a></p>
-          </div>
-          <div class="portfolio-box col-lg-4 col-md-6">
-            <img class="portfolio-image"src="images/travel.jpg" alt="thumbnail">
-            <p class="margin-top"><a class="button" href="https://jimmydang.github.io/travel-site/">Travel Site</a></p>
-          </div>
-          <div class="portfolio-box col-lg-4">
-            <img class="portfolio-image"src="images/form.png" alt="thumbnail">
-            <p class="margin-top"><a class ="button" href="https://jimmydang.github.io/applicationform/">Application Form</a></p>
-          </div>
+        <div class="portfolio-box col-lg-4 col-md-6">
+          <a href="https://jimmydang.github.io/tindog/">
+            <img class="portfolio-image" src="images/tindog.jpg" alt="thumbnail">
+            <p class="portfolio__item-title">Dog Dating</p>
+          </a>
+        </div>
+        <div class="portfolio-box col-lg-4 col-md-6">
+          <a href="https://jimmydang.github.io/travel-site/">
+            <img class="portfolio-image" src="images/travel.jpg" href="" alt="thumbnail">
+            <p class="portfolio__item-title">Travel Planner</p>
+          </a>
+        </div>
+        <div class="portfolio-box col-lg-4 col-md-6">
+          <a href="https://jimmydang.github.io/applicationform/">
+            <img class="portfolio-image" src="images/form.png" href="" alt="thumbnail">
+            <p class="portfolio__item-title">Application Form</p>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -93,30 +94,23 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <h3 class="heading">LET'S WORK TOGETHER</h3>
-          <p class="intro">If you like my work and looking for a freshman for your team, just sent me direct email or contact me through my LinkedIn.</p>
-          <p class="margin-top"> <a class="button"  href="mailto:jimmy.vpdang@gmail.com"><i class="fas fa-envelope email-icon"></i>Message Me</i></a></p>
+          <h3 class="title">LET'S WORK TOGETHER</h3>
+          <p class="contact__text">If you like my work and looking for a freshman for your team, just sent me direct email or contact me through my LinkedIn.</p>
+          <div class="btn-contact">
+            <a class="button btn-header" href="mailto:jimmy.vpdang@gmail.com"><i class="fas fa-envelope email-icon"></i>Message Me</i></a>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section id="footer">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/in/jimmyvpdang/">LinkedIn</a>
-            <a class="footer-link" href="https://github.com/JimmyDang">GitHub</a>
-            <a class="footer-link" href="images/JimmyDang.Resume.pdf" download>
-  My CV</a>
-            <p class="copyright-message">copyright@2019_Jimmy Dang.</p>
-          </div>
-        </div>
-      </div>
+      <p class="copyright-message">copyright@2019_Jimmy Dang.</p>
     </div>
   </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,237 +1,313 @@
-*{
+/* color:#66BFBF */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-body{
+
+body {
   background-color: #FFF;
   color: #40514E;
-  margin:0 auto;
+  margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
   text-align: center;
 }
-.container-fluid{
-  padding:0 15%;
-}
-/* top session */
-.heading{
-  color: #66BFBF;
-}
-#top{
-  background-color: #eaf5ff;
-}
-.icon{
-  background-color: #FFF;
-  border-radius: 100%;
-  width: 75px;
-  height: 75px;
-}
-.navbar{
-  padding: 2rem 2rem;
-}
-.nav-link{
-  text-decoration: none;
-  font-weight: 300;
-  margin: 0 1.5rem;
-}
-.top-cloud{
-  position: absolute;
-  left: 15%;
-  margin-bottom: 3%;
-}
-.title{
-  position: relative;
-  top: 10%;
-  font-size: 2.5rem;
-}
-.sub-title{
-  position: relative;
-  top: 10%;
-  font-size: 1.5rem;
-}
-.intro{
-  position: relative;
-  line-height: 2;
 
+a {
+  text-decoration: none;
 }
-.quote{
-  text-align: center;
-  top: 20%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
+
+a:hover {
+  text-decoration: none;
+  color: #000;
 }
-.bottom-cloud{
-  position: absolute;
-  left: 80%;
-  top: 50%;
-}
-.mountain-image{
-  position: relative;
-  top: 80%;
-  max-width: 100%;
-  vertical-align: middle;
-}
-.ruler{
+
+.ruler {
   width: 6%;
   border: dotted grey 6px;
   border-bottom: none;
-  margin: 2.5rem auto;
+  margin: 0 auto;
 }
-a{
-  text-decoration: none;
-}
-a:hover{
-  text-decoration: none;
-}
-/* hello session */
-.profile-image{
-    background-color: #66BFBF;
-    border-radius: 100%;
-    margin: 3% auto;
-    max-width: 100%;
-    display: block;
-  }
-/* portfolio session */
-.portfolio-box{
-  margin-top: 2.5rem;
-}
-.portfolio-image{
-  width: 75%;
-}
-.button{
-  background: #11CDD4;
+
+.button {
+  background-color: #66BFBF;
   color: #FFF;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.title {
+  color: #66BFBF;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 2rem 2rem;
+}
+
+/* top */
+#top {
+  background-color: #eaf5ff;
+}
+
+/* navigation */
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.header-link {
+  color: #66BFBF;
   padding: 5px 15px;
   text-align: center;
   font-size: 1.2rem;
-  border-radius: 8px;
-  border: none;
   margin: 40px 20px;
   text-decoration: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
-.button:hover{
-  color: #EEE;
+
+.header-link:hover {
+  color: #000;
 }
-.margin-top{
-  margin-top: 2rem;
+
+.social-icon {
+  font-size: 2rem;
 }
+
+.align-right {
+  position: absolute;
+  right: 0;
+}
+
+/* header */
+.header {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.header-ruler {
+  border: inner grey 6px;
+  border-bottom: none;
+  margin: 0 0 1rem 0;
+}
+
+.header__top-cloud {
+  position: absolute;
+  left: 17%;
+}
+
+.header-text-box {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 2.3rem;
+  color: #66BFBF;
+  text-transform: uppercase;
+  margin: 0 0;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  margin-top: 5px;
+}
+
+.header__intro {
+  line-height: 2;
+}
+
+.header__button {
+  margin-top: 0;
+  display: inline-flex;
+}
+
+.btn-header {
+  margin: 0 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.btn-header:hover {
+  text-decoration: none;
+}
+
+.header__bottom-cloud {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+}
+
+.header-mountain-image {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* portfolio session */
+.portfolio-box {
+  margin-bottom: 1rem;
+}
+
+.portfolio-image {
+  box-shadow: 3px 3px 3px #ccc, -3px -3px 3px #ccc;
+  width: 75%;
+}
+
+.portfolio__item-title {
+  background-color: #EEE;
+  font-size: 1.3rem;
+  width: 75%;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
+.portfolio__button:hover {
+  color: #000;
+}
+
 /* jobs searching session */
-.email-icon{
+.contact__text{
+  margin: 0 15%;
+}
+.email-icon {
   padding: 10px;
+}
+.btn-contact{
+  margin: 1rem 0;
 }
 
 /* footer session */
-#footer{
+#footer {
   background-color: #66BFBF;
-  padding-top: 1rem;
-}
-.footer-link{
-  color: #EAF6F6;
-  margin: 5px 20px;
-  text-decoration: none;
-}
-.footer-link:hover{
-  color: #30E3CB;
-}
-.copyright-message{
-  color: #EAF6F6;
-  font-size: .75rem;
-  padding: 10px;
+  padding: 1rem;
+  margin: 0;
 }
 
-@media only screen and (max-width: 991px){
-  .intro{
-    width: 100%;
+.copyright-message {
+  color: #EAF6F6;
+  font-size: .75rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-text-box {
+    top: 27%;
+    width: 80%;
   }
-  .quote{
-    top: 22%;
-    margin-bottom: 3rem;
+  .header{
+    height:110vh;
   }
-  .portfolio-image{
+  .header-mountain-image{
+    top: 75%;
+  }
+
+  .portfolio-image {
+    width: 17rem;
+  }
+  .portfolio__item-title{
     width: 17rem;
   }
 }
+
 @media only screen and (max-width: 768px) {
-  .container-fluid{
+  .container-fluid {
     padding: 0 30px;
   }
-  .title{
-    top: 12%;
-    font-size: 1.7rem;
+  .header-link {
+    margin: 5px 5px;
   }
-  .sub-title{
-    top: 12%;
-    font-size: 1.5rem;
+  .header {
+    height: 100vh;
+  }
+  .header-text-box {
+    top: 35%;
+    width: 90%;
+  }
+  .btn-header {
+    margin: 0 1rem;
   }
   .bottom-cloud{
     display: none;
   }
-  .intro{
-    font-size: 1rem;
-    width: 100%;
+  .header-mountain-image{
+    top: 80%;
   }
-  .quote{
-    top: 22%;
-    margin-bottom: 3rem;
+  .mountain-image{
+  width: 25rem;;
+  }
+  .contact__text{
+    margin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container-fluid {
+    padding: 0 10px;
+  }
+  .header-link {
+    padding: 5px 5px;
+  }
+  .navbar {
+    padding: 0 0;
+  }
+  .header{
+  //  height: 85vh;
+  }
+  .header-text-box {
+    top: 40%;
+  }
+  .heading-primary-main {
+    font-size: 1.75rem;
+  }
+  .heading-primary-sub {
+    font-size: 1.2rem;
+  }
+  .btn-header {
+    margin: 0 1rem;
+  }
+  .button{
+    padding:5px 5px;
+  }
+  .bottom-cloud{
+    display: none;
+  }
+  .header-mountain-image{
+    top: 85%;
+  }
+  .mountain-image{
+  width: 20rem;
+  }
+  .contact__text{
+    margin: 0 0;
+  }
+  .title{
+
+  }
+
+  .ruler {
+    width: 10%;
+    border: dotted grey 8px;
+    margin: 1rem auto;
+    border-bottom: none;
+  }
+
+  .portfolio-box {
+    margin-top: 1rem;
   }
   .portfolio-image{
     width: 15rem;
   }
-  .heading{
-    font-size: 1.75rem;
-  }
-  .sub-title{
-    font-size: 1.2rem;
+  .portfolio__item-title{
+    width: 15rem;
   }
 }
-@media only screen and (max-width: 400px)  {
-  .container-fluid{
-    padding: 0 20px;
-  }
-  .navbar{
-    padding: 2rem 0;
-  }
-  .icon{
-    left: 5%;
-    width: 70px;
-    height: 70px;
-  }
-  .title{
-    margin-top: 1rem;
-    top: 15%;
-    font-size: 1.7rem;
-  }
-  .sub-title{
-    top: 15%;
-    font-size: 1.5rem;
-  }
-  .intro{
-    top: 0;
-    font-size: 1rem;
-    width: 100%;
-    line-height: 1.5;
-  }
-  .quote{
-    top: 30%;
-    margin-bottom: 3rem;
-  }
-  .bottom-cloud{
-    display: none;
-  }
-  .profile-image{
-    width: 30%;
-  }
-  .ruler{
-    width: 10%;
-    border: dotted grey 8px;
-    margin: 2.5rem auto;
-    border-bottom: none;
-  }
-  .portfolio-box{
-    margin-top: 1.5rem;
-  }
