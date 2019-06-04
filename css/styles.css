@@ -176,14 +176,11 @@ a:hover {
   .container-fluid {
     padding: 0 0;
   }
-
-
 }
 
 @media only screen and (max-width: 991px) {
-
   .header-text-box {
-    margin-top: 7%;
+    margin: 10% 5% 0;
   }
 
   .heading-primary {
@@ -203,7 +200,6 @@ a:hover {
     font-size: 1.2rem;
   }
 
-
   .portfolio-image {
     width: 17rem;
   }
@@ -219,14 +215,9 @@ a:hover {
   }
 
 
-  .header-text-box {
-    margin-top: 15%;
-  }
-
   .btn-header {
     margin: 0 1rem;
   }
-
 
   .header-mountain-image {
     margin-top: 2rem;
@@ -251,12 +242,13 @@ a:hover {
   .header-link {
     padding: 5px 15px;
   }
+
   .navbar {
     padding: 0 0;
   }
 
   .header-text-box {
-    margin-top: 10%;
+    margin: 10% 5% 0;
   }
 
   .heading-primary {
