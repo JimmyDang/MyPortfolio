@@ -283,10 +283,10 @@ a:hover {
     padding: 0 0;
   }
   .header__top-cloud{
-    top: 10%;
+    display: none;
   }
   .header-text-box {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .heading-primary {
